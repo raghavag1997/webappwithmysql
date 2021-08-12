@@ -1,0 +1,12 @@
+
+First of all create new vnet with two subnet in one subent there would be db and in another subent azure web app
+
+configure mysql 
+if you are using on vm ( mysql )
+
+----> bind address ( 0.0.0.0 )
+and if it is version 8 
+ALTER USER 'username'@'ip_address' IDENTIFIED WITH mysql_native_password BY 'password';
+
+go to webapp
+networking -> configure  vnet
